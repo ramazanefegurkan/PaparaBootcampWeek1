@@ -85,6 +85,7 @@ public class ProductsController : ControllerBase
 
         product.Name = updatedProduct.Name;
         product.Description = updatedProduct.Description;
+        product.Category = updatedProduct.Category;
         product.Price = updatedProduct.Price;
         product.Stock = updatedProduct.Stock;
 
